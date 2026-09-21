@@ -1,0 +1,6 @@
+[submodule "submodule/Focus-VLWA"]
+	path = submodule/Focus-VLWA
+	url = https://github.com/MachEmbodied/Focus-VLWA.git
+[submodule "submodule/ME-VLM"]
+	path = submodule/ME-VLM
+	url = https://github.com/MachEmbodied/ME-VLM.git

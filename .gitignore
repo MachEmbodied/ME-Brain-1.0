@@ -1,0 +1,93 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+# Python bytecode and extension cache files
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+dist/
+build/
+wheels/
+sdist/
+.eggs/
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ─── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ─── Testing & coverage ───────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+
+# ─── Type checkers ────────────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+.pyright/
+.ruff_cache/
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── ML / model artifacts ─────────────────────────────────────────────────────
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.tflite
+checkpoints/
+runs/
+wandb/
+mlruns/
+outputs/
+
+# ─── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ─── Editors ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ─── Environment / secrets ────────────────────────────────────────────────────
+.env
+.env.*
+*.local.yaml
+*.local.yml
+*.local.json
+*.env
+secrets.yaml
+
+# ─── Logs & runtime output ────────────────────────────────────────────────────
+*.log
+logs/
+tmp/
+
+# Private development material is excluded from the release candidate.
+tests/
+archived/
+runtime_artifacts/
+docs/
